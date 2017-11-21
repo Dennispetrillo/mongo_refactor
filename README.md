@@ -2,7 +2,7 @@
 
 The goal here was to refactor mongodb1 by using cookbooks available from the supermarket.
 
-For this effort I used **sc-mongodb cookbook** version 1.0.0 from the supermarket https://supermarket.chef.io/cookbooks/sc-mongodb#knife
+For this effort I used **sc-mongodb cookbook** version 1.0.0 from the supermarket https://supermarket.chef.io/cookbooks/sc-mongodb#knife to install and configure mongo
 
 Implementation consisted of 3 parts:
 - Adding an attribute file to contain some default attributes to capture the name of the package (mongodb-org) 
